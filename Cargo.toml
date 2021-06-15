@@ -15,7 +15,7 @@ exclude = ["/bors.toml", "/ci/*", "/.github/*"]
 edition = "2018"
 
 [features]
-default = ["std"]
+default = []
 std = ["num-integer/std", "num-traits/std"]
 
 [package.metadata.docs.rs]
